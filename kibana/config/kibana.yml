@@ -1,0 +1,5 @@
+server.host: "0.0.0.0"
+xpack.encryptedSavedObjects:
+  encryptionKey: "min-32-byte-long-NEW-encryptions" 
+  keyRotation:
+    decryptionOnlyKeys: ["min-32-byte-long-OLD#1-encryption-key", "min-32-byte-long-OLD#2-encryption-key"] 

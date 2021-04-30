@@ -4,7 +4,7 @@ instances:
       - es01
       - localhost
     ip:
-      - 127.0.0.1
+      - 10.3.51.24 #ip VM
       
   - name: 'kib01'
     dns:
